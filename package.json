@@ -1,0 +1,31 @@
+{
+  "name": "site-translations",
+  "version": "0.0.1",
+  "description": "GDL site translations",
+  "main": "handler.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "serverless": "^1.38.0",
+    "serverless-http": "^1.9.1",
+    "serverless-vpc-discovery": "^1.0.13"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.6.0",
+    "serverless-plugin-warmup": "^4.3.3-rc.1"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlobalDigitalLibraryio/site-translations.git"
+  },
+  "author": "linvik@knowit.no",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/GlobalDigitalLibraryio/site-translations/issues"
+  },
+  "homepage": "https://github.com/GlobalDigitalLibraryio/site-translations#readme"
+}

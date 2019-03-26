@@ -1,0 +1,116 @@
+{
+  "Blog": "Blogg",
+  "From": "Fra {name}",
+  "Home": "Hjem",
+  "More": "Mer",
+  "from": "fra {name}",
+  "About": "Om",
+  "Done!": "Ferdig!",
+  "Level": "Nivå {level}",
+  "Share": "Del",
+  "Log in": "Logg inn",
+  "Oh no!": "Å nei!",
+  "Next": "Neste",
+  "Search": "Søk",
+  "result": "{totalCount, number} {totalCount, plural, one {resultat for} other {resultater for}}",
+  "Level 1": "Nivå 1",
+  "Level 2": "Nivå 2",
+  "Level 3": "Nivå 3",
+  "Level 4": "Nivå 4",
+  "License": "Lisens",
+  "Log out": "Logg ut",
+  "Similar": "Tilsvarende bøker",
+  "Tooltip": "Tooltip",
+  "Copy URL": "Kopier URL",
+  "Previous": "Forrige",
+  "Download": "Last ned",
+  "Favorite": "Favoritt",
+  "Featured": "Utvalgt",
+  "Next tip": "Neste tips",
+  "Contributor": "{numberOf, plural, one {{contributorType}} other {{contributorType}s}}",
+  "Selected": "Valgt:",
+  "Selected language": "{language}",
+  "Decodable": "Decodable",
+  "Favorites": "Favoritter",
+  "GDL Admin": "GDL Admin",
+  "Open menu": "Åpne meny",
+  "Read book": "Les bok",
+  "Categories": "Kategorier",
+  "Close book": "Lukk bok",
+  "More books": "Fler bøker",
+  "Read aloud": "Les høyt",
+  "New arrivals": "Nykommere",
+  "Save offline": "Lagre offline",
+  "Take me home": "Ta meg tilbake til hovedsiden",
+  "Translate to": "Oversett til",
+  "Book language": "Bokens språk",
+  "Cookie policy": "Cookie policy",
+  "E-book (EPUB)": "E-bok (EPUB)",
+  "Library books": "Library books",
+  "Report issues": "Rapporter problemer",
+  "No books found": "Ingen bøker ble funnet",
+  "Privacy policy": "Privacy policy",
+  "Translate book": "Oversett bok",
+  "Translate from": "Oversett fra",
+  "Classroom books": "Classroom books",
+  "My translations": "Mine oversettelser",
+  "Offline library": "Offline library",
+  "Select language": "Velg språk",
+  "Add to favorites": "Legg til i favoritter",
+  "Remove all books": "Fjern alle bøker",
+  "Report a problem": "Rapporter et problem",
+  "Search for books": "Søk etter bøker",
+  "No language found": "Ingen språk ble funnet",
+  "Start translation": "Begynn å oversette",
+  "Mobile translation": "Oversettelse på mobil",
+  "Clear all favorites": "Fjern alle farvoritter",
+  "Error loading data": {
+    "": "Error loading data."
+  },
+  "Licensing and reuse": "Licensing and reuse",
+  "Prepare translation": "Forbered oversettelse",
+  "Sign in to continue": "Logg inn for å fortsette",
+  "Translate this book": "Oversett denne boken",
+  "Choose book language": "Velg språk for boken",
+  "Printable book (PDF)": "Printable book (PDF)",
+  "Sign in using Google": "Logg inn ved hjelp av Google",
+  "Translate in context": "Oversett ved hjelp av in-context",
+  "No results for search": "Ingen resultater på",
+  "Remove from favorites": "Fjern fra favoritter",
+  "Additional information": "Mer informasjon",
+  "Find something to read": "Finn noe å lese",
+  "Sign in using Facebook": "Logg inn ved hjelp av Facebook",
+  "You have not translated any books yet": {
+    "": "Du har ikke oversatt noen bøker enda."
+  },
+  "An error has occurred": {
+    " Please try again": {
+      "": "Det har oppstått en feil. Vennligst prøv igjen."
+    }
+  },
+  "Please try searching for something else": "{emph} Vennligst prøv å søke etter en annen bok.",
+  "Oops, there was a problem signing you in": {
+    "": "Oops, det oppstod et problem med å logge deg inn."
+  },
+  "The page you were looking for was taken by a 404": {
+    "": "Denne siden finnes dessverre ikke."
+  },
+  "Add books to your favorites so you can easily find them later": {
+    "": "Add books to your favorites so you can easily find them later."
+  },
+  "The error has been reported": {
+    " Please feel free to try signing in again": {
+      "": "The error has been reported. Please feel free to try signing in again."
+    }
+  },
+  "Something went wrong while preparing the translation": {
+    " Please try again": {
+      "": "Something went wrong while preparing the translation. Please try again."
+    }
+  },
+  "Please wait while we’re preparing the book for translation": {
+    " This could take some time": {
+      "": "Please wait while we’re preparing the book for translation. This could take some time."
+    }
+  }
+}
