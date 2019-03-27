@@ -2,16 +2,21 @@
 const serverless = require("serverless-http");
 const express = require("express");
 const bodyParser = require("body-parser");
-const nbTrans = require("./nb.messages.json");
-const enTrans = require("./en.messages.json");
 
 const server = express();
 server.set("port", process.env.PORT || 3000);
 server.use(bodyParser.json({ type: "application/json" }));
 
 server.get("/:language", (req, res) => {
-  const trans = req.params.language === "en" ? enTrans : nbTrans;
-  res.json(200, { [req.params.language]: trans });
+  try {
+    const trans = require(`./${req.params.language}.messages.json`);
+    res.json(200, { [req.params.language]: trans });
+  } catch (error) {
+    res.json(
+      400,
+      `Error, could not find translations for ${req.params.language}`
+    );
+  }
 });
 
 server.get("/health", (req, res) => {
