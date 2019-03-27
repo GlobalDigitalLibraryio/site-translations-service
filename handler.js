@@ -13,7 +13,7 @@ server.get("/:language", (req, res) => {
     res.json(200, { [req.params.language]: trans });
   } catch (error) {
     res.json(
-      400,
+      404,
       `Error, could not find translations for ${req.params.language}`
     );
   }
