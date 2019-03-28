@@ -24,6 +24,8 @@ provider:
 
 package:
   individually: true
+  exclude:
+    - "**__tests__/**"
 
 functions:
   hello:

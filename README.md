@@ -21,6 +21,11 @@ By using the command below you are able to trigger functions through `localhost:
 
 `$ npm run dev`
 
+#### Run tests
+
+Test are run by using the command:
+`npm run test`
+
 ## Plugins
 
 The application uses some serverless plugins which may affect the use of additional plugins (so you are aware). Current plugins used are:

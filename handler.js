@@ -9,13 +9,10 @@ server.use(bodyParser.json({ type: "application/json" }));
 
 server.get("/:language", (req, res) => {
   try {
-    const trans = require(`./${req.params.language}.messages.json`);
+    const trans = require(`./gdl/${req.params.language}.messages.json`);
     res.json(200, { [req.params.language]: trans });
   } catch (error) {
-    res.json(
-      404,
-      `Error, could not find translations for ${req.params.language}`
-    );
+    res.json(404, `Could not find translations for ${req.params.language}`);
   }
 });
 
@@ -29,7 +26,6 @@ const app = serverless(server);
 module.exports.hello = async (event, context) => {
   // check if we get a warm up event
   if (event.source === "serverless-plugin-warmup") {
-    console.log("Warm up!");
     return {
       statusCode: 200,
       body: "Warm up assistant-service"

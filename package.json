@@ -3,19 +3,28 @@
   "version": "0.0.1",
   "description": "GDL site translations",
   "main": "handler.js",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "*.js",
+      "!handler.js",
+      "!**/node_modules/**"
+    ]
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "serverless": "^1.38.0",
+    "serverless": "^1.39.1",
     "serverless-http": "^1.9.1",
     "serverless-vpc-discovery": "^1.0.13"
   },
   "devDependencies": {
+    "jest": "^24.5.0",
     "serverless-offline": "^4.6.0",
     "serverless-plugin-warmup": "^4.3.3-rc.1"
   },
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "dev": "serverless offline start"
   },
   "repository": {
