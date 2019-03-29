@@ -1,5 +1,7 @@
 # site-translations
 
+[![Build Status](https://travis-ci.org/GlobalDigitalLibraryio/site-translations-service.svg?branch=master)](https://travis-ci.org/GlobalDigitalLibraryio/site-translations-service)
+
 Collection of site translations
 
 ## Requirements
@@ -17,7 +19,7 @@ Install dependencies using
 ### Run serverless functions locally
 
 To be able to run serverless functions locally we are using [serverless-offline](https://www.npmjs.com/package/serverless-offline).
-By using the command below you are able to trigger functions through `localhost:3000/<function>`
+By using the command below you are able to trigger functions through `localhost:5000/<api/functions>`
 
 `$ npm run dev`
 
