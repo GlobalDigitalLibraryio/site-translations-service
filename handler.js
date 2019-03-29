@@ -1,13 +1,13 @@
-"use strict";
-const serverless = require("serverless-http");
-const express = require("express");
-const bodyParser = require("body-parser");
+'use strict';
+const serverless = require('serverless-http');
+const express = require('express');
+const bodyParser = require('body-parser');
 
 const server = express();
-server.set("port", process.env.PORT || 3000);
-server.use(bodyParser.json({ type: "application/json" }));
+server.set('port', process.env.PORT || 3000);
+server.use(bodyParser.json({ type: 'application/json' }));
 
-server.get("/:language", (req, res) => {
+server.get('/:language', (req, res) => {
   try {
     const trans = require(`./gdl/${req.params.language}.messages.json`);
     res.json(200, { [req.params.language]: trans });
@@ -16,19 +16,15 @@ server.get("/:language", (req, res) => {
   }
 });
 
-server.get("/health", (req, res) => {
-  res.status(200).json({ status: "UP" });
-});
-
 const app = serverless(server);
 
 // https://github.com/FidelLimited/serverless-plugin-warmup
-module.exports.hello = async (event, context) => {
+module.exports.translations = async (event, context) => {
   // check if we get a warm up event
-  if (event.source === "serverless-plugin-warmup") {
+  if (event.source === 'serverless-plugin-warmup') {
     return {
       statusCode: 200,
-      body: "Warm up assistant-service"
+      body: 'Warm up assistant-service'
     };
   }
   return app(event, context);

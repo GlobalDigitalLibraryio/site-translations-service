@@ -16,6 +16,7 @@
     "express": "^4.16.4",
     "serverless": "^1.39.1",
     "serverless-http": "^1.9.1",
+    "serverless-plugin-aws-alerts": "^1.2.4",
     "serverless-vpc-discovery": "^1.0.13"
   },
   "devDependencies": {
@@ -29,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlobalDigitalLibraryio/site-translations.git"
+    "url": "git+https://github.com/GlobalDigitalLibraryio/site-translations-service.git"
   },
   "author": "linvik@knowit.no",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/GlobalDigitalLibraryio/site-translations/issues"
+    "url": "https://github.com/GlobalDigitalLibraryio/site-translations-service/issues"
   },
-  "homepage": "https://github.com/GlobalDigitalLibraryio/site-translations#readme"
+  "homepage": "https://github.com/GlobalDigitalLibraryio/site-translations-service#readme"
 }
