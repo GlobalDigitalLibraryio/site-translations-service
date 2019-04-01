@@ -10,9 +10,11 @@ server.use(bodyParser.json({ type: 'application/json' }));
 server.get('/:language', (req, res) => {
   try {
     const trans = require(`./gdl/${req.params.language}.messages.json`);
-    res.json(200, { [req.params.language]: trans });
+    res.status(200).json({ [req.params.language]: trans });
   } catch (error) {
-    res.json(404, `Could not find translations for ${req.params.language}`);
+    res
+      .status(404)
+      .json(`Could not find translations for ${req.params.language}`);
   }
 });
 
