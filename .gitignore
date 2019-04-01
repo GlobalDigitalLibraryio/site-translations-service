@@ -1,0 +1,21 @@
+# package directories
+node_modules
+jspm_packages
+
+# test reports
+coverage
+
+# Serverless directories
+.serverless
+
+venv**
+**/target
+**/.DS_Store
+**/venv
+
+/log
+/.idea
+/.history
+/.serverless
+/lib
+/.vscode
