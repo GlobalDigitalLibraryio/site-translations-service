@@ -1,4 +1,4 @@
-service: site-translation-service
+service: site-translations-service
 
 provider:
   name: aws
