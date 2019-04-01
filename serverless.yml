@@ -28,7 +28,7 @@ package:
     - '**__tests__/**'
 
 functions:
-  hello:
+  site-translations:
     handler: handler.translations
     description: 'Translation service'
     events:
