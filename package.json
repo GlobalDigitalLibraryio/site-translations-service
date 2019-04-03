@@ -33,7 +33,7 @@
     "url": "git+https://github.com/GlobalDigitalLibraryio/site-translations-service.git"
   },
   "author": "linvik@knowit.no",
-  "license": "GPL v3",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/GlobalDigitalLibraryio/site-translations-service/issues"
   },
