@@ -1,6 +1,6 @@
 {
   "name": "site-translations",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "GDL site translations",
   "main": "handler.js",
   "jest": {
