@@ -8,7 +8,7 @@ provider:
   endpointType: private
   role: arn:aws:iam::${env:GDL_ACCOUNT, 'DEV'}:role/${env:SERVERLESS_IAM_ROLE, 'DEV'}
   tags:
-    VERSION: '0.1'
+    VERSION: '1.0.0'
   deploymentBucket:
     name: ${env:GDL_SERVERLESS_DEPLOYMENT_BUCKET, 'DEV'}
   resourcePolicy:
