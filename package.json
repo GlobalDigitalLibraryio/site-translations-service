@@ -14,7 +14,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "serverless": "^1.39.1",
+    "serverless": "^1.45.1",
     "serverless-http": "^1.9.1",
     "serverless-plugin-aws-alerts": "^1.2.4",
     "serverless-vpc-discovery": "^1.0.13"
